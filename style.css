@@ -1,0 +1,44 @@
+body {
+  font-family: "Papyrus", sans-serif;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.5;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: 40%;
+    width: 40%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+h1 {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+h2 {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+p {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media screen and (max-width: 1320px) {
+    body 
+    {
+        margin: 2% 5% 2%
+    }
+    img 
+    {
+        width: 60%
+    }
+}
